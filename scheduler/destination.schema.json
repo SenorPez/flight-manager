@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/product.schema.json",
+  "title": "Destinations",
+  "description": "An array of destinations from a hub",
+  "type": "object",
+  "properties": {
+    "hub": "string",
+    "description": "ICAO airport code of destination",
+    "latitude": {
+      "type": "number",
+      "description": "Latitude of the hub",
+      "minimum": -90.0,
+      "maximum": 90.0
+    },
+    "longitude": {
+      "type": "number",
+      "description": "Longitude of the hub",
+      "minimum": -180.0,
+      "maximum": 180.0
+    },
+    "destinations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "destination": {
+            "type": "string",
+            "description": "ICAO airport code of destination"
+          },
+          "routes": {
+            "type": "integer",
+            "description": "The number of routes from the hub to the destination",
+            "minimum": 1
+          },
+          "latitude": {
+            "type": "number",
+            "description": "Latitude of the destination",
+            "minimum": -90.0,
+            "maximum": 90.0
+          },
+          "longitude": {
+            "type": "number",
+            "description": "Longitude of the destination",
+            "minimum": -180.0,
+            "maximum": 180.0
+          }
+        },
+        "required": [
+          "destination",
+          "routes",
+          "latitude",
+          "longitude"
+        ]
+      }
+    }
+  }
+}
