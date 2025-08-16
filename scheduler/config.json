@@ -1,3 +1,11 @@
 {
-  "maxDistance": 1622
+  "maxDistance": 1622,
+  "completedRoutes": [
+    {
+      "ix": 1,
+      "destination": "ZYTX",
+      "routes": 2,
+      "routeLength": 285
+    }
+  ]
 }
