@@ -6,12 +6,18 @@
     "@babel/preset-env": "^7.28.3",
     "@babel/preset-typescript": "^7.27.1",
     "@types/jest": "^30.0.0",
+    "@types/node": "^24.3.0",
     "babel-jest": "^30.0.5",
     "jest": "^30.0.5",
     "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   },
   "scripts": {
+    "start": "ts-node ./src/getDestinations.ts",
     "test": "jest"
+  },
+  "dependencies": {
+    "printf": "^0.6.1"
   }
 }

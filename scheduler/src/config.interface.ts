@@ -1,0 +1,3 @@
+interface Configuration {
+    maxDistance: number
+}
