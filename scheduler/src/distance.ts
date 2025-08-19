@@ -15,4 +15,3 @@ export function distance(origin: [number, number], destination: [number, number]
 function toRadians(degrees: number) {
     return degrees * Math.PI / 180;
 }
-

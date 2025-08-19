@@ -2,10 +2,12 @@
   "maxDistance": 1622,
   "completedRoutes": [
     {
+      "ix": 7,
+      "destination": "RJAA"
+    },
+    {
       "ix": 1,
-      "destination": "ZYTX",
-      "routes": 2,
-      "routeLength": 285
+      "destination": "ZYTX"
     }
   ]
 }
