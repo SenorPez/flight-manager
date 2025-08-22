@@ -19,4 +19,11 @@ export class Route {
                 return route.ix === this.ix && route.destination === this.destination;
             }).length > 0;
     }
+
+    isExcluded(configuration: Configuration): boolean {
+        return configuration.excludedDestinations
+            .filter(destination => {
+                return destination === this.destination
+            }).length > 0;
+    }
 }
