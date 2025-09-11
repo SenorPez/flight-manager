@@ -15,15 +15,14 @@ export class Route {
 
     isCompleted(configuration: Configuration): boolean {
         return configuration.completedRoutes
-            .filter(route => {
+            ?.filter(route => {
                 return route.ix === this.ix && route.destination === this.destination;
             }).length > 0;
     }
 
     isExcluded(configuration: Configuration): boolean {
         return configuration.excludedDestinations
-            .filter(destination => {
-                return destination === this.destination
-            }).length > 0;
+            ?.filter(destination => destination === this.destination)
+            .length > 0;
     }
 }

@@ -1,7 +1,7 @@
 export interface Configuration {
-    maxDistance: number,
-    excludedDestinations: string[],
-    completedRoutes: {
+    maxDistance?: number,
+    excludedDestinations?: string[],
+    completedRoutes?: {
         ix: number,
         destination: string
     }[]
