@@ -1,0 +1,76 @@
+{
+  "maxDistance": 3500,
+  "excludedDestinations": [
+    "WADD"
+  ],
+  "completedRoutes": [
+    {
+      "ix": 1,
+      "destination": "ZYTX"
+    },
+    {
+      "ix": 7,
+      "destination": "RJAA"
+    },
+    {
+      "ix": 1,
+      "destination": "RJNT"
+    },
+    {
+      "ix": 2,
+      "destination": "ZBTJ"
+    },
+    {
+      "ix": 0,
+      "destination": "RJFF"
+    },
+    {
+      "ix": 7,
+      "destination": "ZSPD"
+    },
+    {
+      "ix": 4,
+      "destination": "RPLL"
+    },
+    {
+      "ix": 0,
+      "destination": "ZLXY"
+    },
+    {
+      "ix": 4,
+      "destination": "VHHH"
+    },
+    {
+      "ix": 1,
+      "destination": "VHHH"
+    },
+    {
+      "ix": 0,
+      "destination": "RJFT"
+    },
+    {
+      "ix": 0,
+      "destination": "RJBB"
+    },
+    {
+      "ix": 2,
+      "destination": "VVTS"
+    },
+    {
+      "ix": 0,
+      "destination": "RKPK"
+    },
+    {
+      "ix": 1,
+      "destination": "ZBTJ"
+    },
+    {
+      "ix": 0,
+      "destination": "VTCC"
+    },
+    {
+      "ix": 0,
+      "destination": "RJCC"
+    }
+  ]
+}
