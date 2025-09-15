@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "ts-node ./src/getDestinations.ts",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "dependencies": {
     "printf": "^0.6.1"
