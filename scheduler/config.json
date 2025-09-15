@@ -67,6 +67,10 @@
     {
       "ix": 0,
       "destination": "VTCC"
+    },
+    {
+      "ix": 0,
+      "destination": "RJCC"
     }
   ]
 }
