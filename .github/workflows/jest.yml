@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-          cache-dependency-path: designer/package-lock.json
+          cache-dependency-path: scheduler/package-lock.json
       - name: Clean install application
         run: npm ci
       - name: Run Jest tests
@@ -32,6 +32,6 @@ jobs:
         uses: codecov/codecov-action@v3
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          directory: ./designer/coverage/
+          directory: ./scheduler/coverage/
           fail_ci_if_error: true
           verbose: true
